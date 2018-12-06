@@ -5,6 +5,8 @@
     <specialty/>
     <para/>
     <faq/>
+    <testimonial/>
+    <achievements/>
     <div style="width: 100%">
       <iframe
         width="100%"
@@ -29,6 +31,8 @@ import welcome from "./components/Welcome/Welcome.vue";
 import Specialty from "./components/Specialty/Specialty.vue";
 import Para from "./components/Para/Para.vue";
 import Faq from "./components/faq/Faq.vue";
+import Testimonial from "./components/Testimonial/Testimonial.vue";
+import Achievements from "./components/Achievements/Achievements.vue";
 
 export default {
   name: "app",
@@ -37,7 +41,9 @@ export default {
     welcome,
     Specialty,
     Para,
-    Faq
+    Faq,
+    Testimonial,
+    Achievements
   }
 };
 </script>

@@ -30,6 +30,7 @@ $orange: rgb(218, 73, 28);
 .welcome {
   background-image: url("../../assets/bg-parallax.png");
   background-size: cover;
+  //background-position: center center;
   width: 100%;
   height: 51vw;
   box-sizing: border-box;

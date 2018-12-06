@@ -54,7 +54,8 @@ $orange: rgb(218, 73, 28);
   .video {
     background-image: url("../../assets/videobg.png");
     background-size: cover;
-    //background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
     width: 56.6%;
     height: 37vw;
     display: flex;
@@ -68,7 +69,8 @@ $orange: rgb(218, 73, 28);
       border-radius: 50%;
       width: 60px;
       height: 60px;
-      transform: translate(-5px, 5px);
+      transform-origin: center center;
+      transform: translate(-7px, 7px);
       img {
         transform: translateX(2px);
       }
@@ -78,12 +80,17 @@ $orange: rgb(218, 73, 28);
   .details {
     display: flex;
     flex-direction: column;
-    padding-left: 30px;
-    justify-content: center;
+    padding-left: 3%;
+    padding-right: 6%;
+    padding-top: 4%;
+    width: calc(100% - 56.6%);
+    box-sizing: border-box;
+    overflow: hidden;
     h1 {
       font-size: 26px;
       font-family: "Open Sans";
       color: black;
+      margin-bottom: 30px;
     }
 
     .question {
@@ -104,6 +111,8 @@ $orange: rgb(218, 73, 28);
           border-radius: 50%;
           width: 30px;
           height: 30px;
+          min-width: 30px;
+          min-height: 30px;
           font-size: 2em;
           font-weight: bold;
           display: flex;
@@ -115,7 +124,7 @@ $orange: rgb(218, 73, 28);
           transform-origin: 50% 50%;
           padding-bottom: 3px;
           box-sizing: border-box;
-          margin-right: 10px;
+          margin-right: 20px;
         }
         p {
           font-size: 14px;
@@ -152,7 +161,7 @@ $orange: rgb(218, 73, 28);
     }
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
   .faq {
     flex-direction: column;
     .video {
