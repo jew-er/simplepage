@@ -132,6 +132,7 @@ $orange: rgb(218, 73, 28);
     .cards {
       width: 100%;
       min-height: 500px;
+      height: 50vh;
     }
   }
 }

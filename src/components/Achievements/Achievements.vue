@@ -123,8 +123,6 @@ $orange: rgb(218, 73, 28);
     .details {
       .counter {
         .counter-item {
-          img {
-          }
           div {
             h1 {
               font-size: 40px;
@@ -143,18 +141,6 @@ $orange: rgb(218, 73, 28);
   .achievements {
     .details {
       padding: 15px 15px;
-      .counter {
-        .counter-item {
-          img {
-          }
-          div {
-            h1 {
-            }
-            p {
-            }
-          }
-        }
-      }
     }
   }
 }

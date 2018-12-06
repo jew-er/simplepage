@@ -20,6 +20,8 @@
         <a href="https://www.maps.ie/map-my-route/">Create a route on google maps</a>
       </iframe>
     </div>
+    <contact/>
+    <Footer/>
 
     <br>
   </div>
@@ -33,6 +35,8 @@ import Para from "./components/Para/Para.vue";
 import Faq from "./components/faq/Faq.vue";
 import Testimonial from "./components/Testimonial/Testimonial.vue";
 import Achievements from "./components/Achievements/Achievements.vue";
+import Contact from "./components/Contact/Contact.vue";
+import Footer from "./components/Footer/Footer.vue";
 
 export default {
   name: "app",
@@ -43,7 +47,9 @@ export default {
     Para,
     Faq,
     Testimonial,
-    Achievements
+    Achievements,
+    Contact,
+    Footer
   }
 };
 </script>
@@ -53,5 +59,11 @@ export default {
 * {
   margin: 0;
   padding: 0;
+}
+
+#app {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 </style>
