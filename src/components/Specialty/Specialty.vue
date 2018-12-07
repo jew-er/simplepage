@@ -84,18 +84,21 @@ $orange: rgb(218, 73, 28);
     .header {
       box-sizing: border-box;
       padding-bottom: 50px;
+      width: 100%;
       h1 {
         border-left: 3px solid $orange;
         padding-left: 20px;
         font-family: "Open Sans", sans-serif;
         font-size: 36px;
         margin-bottom: 20px;
+        width: 100%;
       }
       p {
         font-family: "Merriweather", serif;
         color: rgb(51, 51, 51);
         line-height: 1.875;
         font-size: 16px;
+        width: 100%;
       }
     }
 
@@ -104,6 +107,7 @@ $orange: rgb(218, 73, 28);
       color: rgb(51, 51, 51);
       line-height: 1.875;
       font-size: 14px;
+      width: 100%;
     }
   }
   .cards {

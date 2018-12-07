@@ -50,6 +50,7 @@ export default {
     padding-right: 30px;
     opacity: 0;
     transition: opacity 0.2s ease-in, transform 0.2s ease-in;
+    width: 100%;
   }
   .chain {
     background: rgb(218, 73, 28);

@@ -50,7 +50,7 @@ $orange: rgb(218, 73, 28);
   .details {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 60%;
     height: 100%;
     box-sizing: border-box;
@@ -79,7 +79,9 @@ $orange: rgb(218, 73, 28);
         img {
           max-width: 50px;
           max-height: 44px;
-          margin-right: 20px;
+          width: 50px;
+          height: 44px;
+          margin-right: 10px;
         }
         div {
           display: flex;
